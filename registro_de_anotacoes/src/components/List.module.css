@@ -1,0 +1,32 @@
+.list {
+  width: 35vw;
+  border-bottom: 4px solid black;
+  display: flex;
+  justify-content: space-between;
+  max-height: 15vh;
+  min-height: 15vh;
+  margin-bottom: .5em;
+  padding-top: 1em;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+}
+
+.actions i{
+  margin: .5em;
+  font-size: 1.3em;
+}
+
+.actions i:hover{
+  cursor: pointer;
+  color: #36626A;
+}
+
+.information{
+  width: 30vw;
+  overflow-y: auto;
+  overflow-wrap: break-word;  
+}
+

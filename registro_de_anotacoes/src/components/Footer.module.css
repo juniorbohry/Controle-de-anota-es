@@ -1,8 +1,15 @@
 .footer {
-    min-height: 15vh;
-    background-color: #A550A5;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+  min-height: 15vh;
+  background-color: #36626A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.footer a {
+  font-size: 2em;
+  color: white;
+  margin-left: 1em;
+  margin-right: 1em;
 }
